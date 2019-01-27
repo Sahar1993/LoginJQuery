@@ -1,0 +1,167 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+        <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+    
+    <style>
+    
+    body{
+
+    font-family: 'Cairo', sans-serif;
+}
+.LoginForm{
+    margin: 10px auto;
+    background: #edeef3;
+    width:600px;
+    height: auto;
+    border-radius: 8px;
+    display: none;
+}
+.mainForm{
+    padding: 50px;
+    text-align: center;
+    box-sizing: border-box;
+}
+h1.loginTitle{
+    color: #4db3a5;
+}
+.loginForm{
+    width: 70%;
+    height: auto;
+}
+.inputStyle{
+    width: 100%;
+    height: 45px;
+    background: #dde3ec;
+    border: 0px;
+    padding:0px 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.btnStyle{
+    border:0px;
+    border-radius: 4px;
+    background: #25a597;
+    color:white;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.submitBtn:hover{
+    background: #1f5651;
+}
+
+a.forgetPass{
+    color:black;
+    text-decoration: none;
+}
+a.forgetPass:hover{
+    color: #797878;
+}
+.clear{
+    clear: both;
+}
+
+.leftSide{
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+.rightSide{
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+.social{
+  margin-top: 15px;
+}
+
+a.socialIcon{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    display: inline-block;
+    color:white;
+}
+a.socialIcon i{
+    line-height: 30px;
+}
+.gplus{
+    background: #e07b6f;
+}
+.fb{
+    background: #3d5b99;
+}
+.twitter{
+    background: #00aced;
+}
+.footerStyle{
+     background: #6b7a8f;
+     height: 70px;
+     text-align: center;
+     border-bottom-left-radius: 8px;
+     border-bottom-right-radius:8px;
+     line-height: 70px;
+     color: #b1adad;
+}
+.footerStyle a{
+    text-decoration: none;
+    color: #c6c8ca;
+    text-transform: uppercase;
+}
+.footerStyle a:hover{
+    color: #eae9e9
+}
+    
+    </style>
+    </head>
+    
+<body>
+    <button id="click" style="width: 100px;">Click</button>
+     <div class="LoginForm">
+            <div class="mainForm">
+                <h1 class="loginTitle">Login</h1>
+                <form class="loginForm" action="">
+                    <input class="inputStyle" type="text" placeholder="Enter your Name">
+                    <input class="inputStyle" type="email" placeholder="Enter your Email">
+                    <input class="inputStyle" type="password" placeholder="Enter your Password">
+                    <div class="leftSide">
+                            <input class="btnStyle" type="submit" value="LOG IN">
+                            <input type="checkbox">
+                            <label for="">Remeber Me</label>
+                        </div>
+                    <div class="rightSide">
+                        <a class="forgetPass" href="##">Forgot Password</a>
+                    </div>
+                    <div class="clear"></div>
+                </form>
+                   <div class="social">
+                    <div class="leftSide">
+                        <span>Login With:</span>
+                    </div>
+                    <div class="rightSide">
+                      <a class="socialIcon gplus" href="##"><i class="fab fa-google-plus-g"></i></a>
+                        <a class="socialIcon twitter" href="##"><i class="fab fa-twitter"></i></a>
+                        <a class="socialIcon fb" href="##"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                  </div>
+                    <div class="clear"></div>
+            </div>
+            <div class="footerStyle">
+                <a href="##">create account</a>  |
+                <a href="##">email activation</a>
+            </div>
+        </div>
+    
+    <script src="js/jQueryv3.3.1.js"></script>
+    <script src="js/main1.js"></script>
+    </body>
+
+
+
+</html>
